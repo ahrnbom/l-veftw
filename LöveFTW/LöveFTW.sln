@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LöveFTW", "LöveFTW.vcxproj", "{E5D779F5-3679-4247-A3C3-C446F1980ABB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL2-UWP", "..\SDL-mirror\VisualC-WinRT\UWP_VS2015\SDL-UWP.vcxproj", "{89E9B32E-A86A-47C3-A948-D2B1622925CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,18 @@ Global
 		{E5D779F5-3679-4247-A3C3-C446F1980ABB}.Release|x86.ActiveCfg = Release|Win32
 		{E5D779F5-3679-4247-A3C3-C446F1980ABB}.Release|x86.Build.0 = Release|Win32
 		{E5D779F5-3679-4247-A3C3-C446F1980ABB}.Release|x86.Deploy.0 = Release|Win32
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Debug|ARM.Build.0 = Debug|ARM
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Debug|x64.ActiveCfg = Debug|x64
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Debug|x64.Build.0 = Debug|x64
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Debug|x86.Build.0 = Debug|Win32
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Release|ARM.ActiveCfg = Release|ARM
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Release|ARM.Build.0 = Release|ARM
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Release|x64.ActiveCfg = Release|x64
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Release|x64.Build.0 = Release|x64
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Release|x86.ActiveCfg = Release|Win32
+		{89E9B32E-A86A-47C3-A948-D2B1622925CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
