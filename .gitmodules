@@ -1,3 +1,6 @@
 [submodule "SDL-mirror"]
 	path = SDL-mirror
 	url = https://github.com/spurious/SDL-mirror.git
+[submodule "lua-uwp"]
+	path = lua-uwp
+	url = https://github.com/ahrnbom/lua-uwp.git

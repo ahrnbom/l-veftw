@@ -63,6 +63,13 @@
 #define VERTICES_PER_TOOTH 34
 #define GEAR_VERTEX_STRIDE 6
 
+extern "C" {
+#include "lua.h"
+#include "lauxlib.h"
+#include "lualib.h"
+}
+
+
 /**
 * Struct describing the vertices in triangle strip
 */
@@ -817,6 +824,8 @@ main(int argc, char *argv[])
 		SDL_WinRTXAMLSetAnimationCallback(&gears_frame, NULL);
 	}
 #endif  /* __WINRT__ && SDL_VIDEO_XAML */
+
+	lua_State *L = lua_open();
 
 	/* Run the main loop */
 	if (!native_window) {
