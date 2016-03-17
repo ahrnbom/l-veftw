@@ -67,7 +67,11 @@ extern "C" {
 #include "lua.h"
 #include "lauxlib.h"
 #include "lualib.h"
+
+#include "physfs.h"
 }
+
+
 
 
 /**
@@ -825,7 +829,12 @@ main(int argc, char *argv[])
 	}
 #endif  /* __WINRT__ && SDL_VIDEO_XAML */
 
+	// Basic Lua tests
 	lua_State *L = lua_open();
+
+	// Basic PhysFS tests
+	PHYSFS_init(NULL);
+	PHYSFS_deinit();
 
 	/* Run the main loop */
 	if (!native_window) {

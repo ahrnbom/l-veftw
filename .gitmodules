@@ -4,3 +4,6 @@
 [submodule "lua-uwp"]
 	path = lua-uwp
 	url = https://github.com/ahrnbom/lua-uwp.git
+[submodule "physfs-uwp"]
+	path = physfs-uwp
+	url = https://github.com/ahrnbom/physfs-uwp.git
