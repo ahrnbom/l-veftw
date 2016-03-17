@@ -236,6 +236,9 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="C:\Users\mahrn\Desktop\test.zip">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="LöveFTW_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>

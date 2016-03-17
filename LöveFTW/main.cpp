@@ -834,6 +834,14 @@ main(int argc, char *argv[])
 
 	// Basic PhysFS tests
 	PHYSFS_init(NULL);
+
+	PHYSFS_mount("test.zip", "test", 1);
+	char** files = PHYSFS_enumerateFiles("test");
+	while (*files != NULL) {
+		char* a = *files;
+		++files;
+	}
+
 	PHYSFS_deinit();
 
 	/* Run the main loop */

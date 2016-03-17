@@ -35,6 +35,7 @@
   <ItemGroup>
     <None Include="LöveFTW_TemporaryKey.pfx" />
     <None Include="packages.config" />
+    <None Include="C:\Users\mahrn\Desktop\test.zip" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
