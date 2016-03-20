@@ -7,3 +7,6 @@
 [submodule "physfs-uwp"]
 	path = physfs-uwp
 	url = https://github.com/ahrnbom/physfs-uwp.git
+[submodule "openal-soft-winphone"]
+	path = openal-soft-winphone
+	url = https://github.com/kakashidinho/openal-soft-winphone.git
