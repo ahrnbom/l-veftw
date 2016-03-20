@@ -246,6 +246,9 @@
     <ProjectReference Include="..\libogg-uwp\winrt\libogg-uwp\libogg-uwp.vcxproj">
       <Project>{045fadbe-62f2-4efb-becb-e671be4ad480}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\libvorbis-uwp\winrt\libvorbis-uwp\libvorbis-uwp.vcxproj">
+      <Project>{ec7968df-c48d-4b7e-be51-b3e23c07b91e}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\lua-uwp\lua-uwp\lua-uwp.vcxproj">
       <Project>{93b8da2c-888e-40c4-8e9e-5f31b53949e0}</Project>
     </ProjectReference>

@@ -13,3 +13,6 @@
 [submodule "libogg-uwp"]
 	path = libogg-uwp
 	url = https://github.com/ahrnbom/libogg-uwp.git
+[submodule "libvorbis-uwp"]
+	path = libvorbis-uwp
+	url = https://github.com/ahrnbom/libvorbis-uwp.git
