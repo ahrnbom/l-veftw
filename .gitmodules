@@ -19,3 +19,6 @@
 [submodule "libtheora-uwp"]
 	path = libtheora-uwp
 	url = https://github.com/ahrnbom/libtheora-uwp.git
+[submodule "freetype-uwp"]
+	path = freetype-uwp
+	url = https://github.com/ahrnbom/freetype-uwp.git
