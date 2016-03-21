@@ -16,3 +16,6 @@
 [submodule "libvorbis-uwp"]
 	path = libvorbis-uwp
 	url = https://github.com/ahrnbom/libvorbis-uwp.git
+[submodule "libtheora-uwp"]
+	path = libtheora-uwp
+	url = https://github.com/ahrnbom/libtheora-uwp.git
