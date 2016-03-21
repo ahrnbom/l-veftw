@@ -22,6 +22,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvorbis-uwp", "..\libvorb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtheora-uwp", "..\libtheora-uwp\winrt\libtheora-uwp\libtheora-uwp.vcxproj", "{C6CA673B-3B6E-4E72-844C-AF54A6950050}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype-uwp", "..\freetype-uwp\freetype\builds\winrt\freetype-uwp\freetype-uwp.vcxproj", "{262B016E-E2DF-40F7-BC58-3BEB000D6229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -134,6 +136,18 @@ Global
 		{C6CA673B-3B6E-4E72-844C-AF54A6950050}.Release|x64.Build.0 = Release|x64
 		{C6CA673B-3B6E-4E72-844C-AF54A6950050}.Release|x86.ActiveCfg = Release|Win32
 		{C6CA673B-3B6E-4E72-844C-AF54A6950050}.Release|x86.Build.0 = Release|Win32
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Debug|ARM.ActiveCfg = Debug|ARM
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Debug|ARM.Build.0 = Debug|ARM
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Debug|x64.ActiveCfg = Debug|x64
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Debug|x64.Build.0 = Debug|x64
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Debug|x86.ActiveCfg = Debug|Win32
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Debug|x86.Build.0 = Debug|Win32
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Release|ARM.ActiveCfg = Release|ARM
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Release|ARM.Build.0 = Release|ARM
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Release|x64.ActiveCfg = Release|x64
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Release|x64.Build.0 = Release|x64
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Release|x86.ActiveCfg = Release|Win32
+		{262B016E-E2DF-40F7-BC58-3BEB000D6229}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

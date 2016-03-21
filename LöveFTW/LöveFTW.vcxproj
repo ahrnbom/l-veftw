@@ -130,7 +130,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -147,7 +147,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -164,7 +164,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -181,7 +181,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -198,7 +198,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -215,7 +215,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -243,6 +243,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\freetype-uwp\freetype\builds\winrt\freetype-uwp\freetype-uwp.vcxproj">
+      <Project>{262b016e-e2df-40f7-bc58-3beb000d6229}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\libogg-uwp\winrt\libogg-uwp\libogg-uwp.vcxproj">
       <Project>{045fadbe-62f2-4efb-becb-e671be4ad480}</Project>
     </ProjectReference>
