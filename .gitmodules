@@ -22,3 +22,6 @@
 [submodule "freetype-uwp"]
 	path = freetype-uwp
 	url = https://github.com/ahrnbom/freetype-uwp.git
+[submodule "zlib-uwp"]
+	path = zlib-uwp
+	url = https://github.com/ahrnbom/zlib-uwp.git
