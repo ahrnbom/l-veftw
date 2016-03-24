@@ -389,47 +389,138 @@
     <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_memory.c" />
     <ClCompile Include="..\love-uwp\love\src\love.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\audio\Audio.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Audio.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Source.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Audio.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Audio.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_null</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Source.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_null</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_null</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Audio.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_openal</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Pool.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Source.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Source.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_openal</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_openal</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\audio\Source.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\audio\wrap_Audio.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\audio\wrap_Source.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\event\Event.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\event\sdl\Event.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\event\sdl\Event.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\event\wrap_Event.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\DroppedFile.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\File.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\FileData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\Filesystem.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\File.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\Filesystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\File.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\Filesystem.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_DroppedFile.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_File.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_FileData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_Filesystem.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\font\BMFontRasterizer.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\font\Font.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\Font.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\TrueTypeRasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\Font.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_font</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_font</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_font</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_font</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_font</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_font</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\TrueTypeRasterizer.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\font\GlyphData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\font\ImageRasterizer.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\font\Rasterizer.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\font\TrueTypeRasterizer.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Font.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_GlyphData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Rasterizer.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\Graphics.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Canvas.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Font.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_opengl</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\GLBuffer.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Graphics.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Graphics.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Image.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Mesh.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\OpenGL.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\ParticleSystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\ParticleSystem.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Polyline.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Shader.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\SpriteBatch.cpp" />
@@ -444,7 +535,14 @@
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Shader.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_SpriteBatch.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Text.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules_opengl</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules_opengl</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\ParticleSystem.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\Quad.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\graphics\Texture.cpp" />
@@ -454,28 +552,84 @@
     <ClCompile Include="..\love-uwp\love\src\modules\image\CompressedImageData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\ImageData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ASTCHandler.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\CompressedImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\CompressedImageData.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ddsHandler.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\FormatHandler.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\Image.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\Image.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ImageData.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\KTXHandler.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PKMHandler.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PNGHandler.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PVRHandler.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\STBHandler.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_CompressedImageData.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_Image.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_Image.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_image</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_image</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_image</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_image</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_image</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_image</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_ImageData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\joystick\Joystick.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\Joystick.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\JoystickModule.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\Joystick.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\JoystickModule.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\joystick\wrap_Joystick.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\joystick\wrap_JoystickModule.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\keyboard\Keyboard.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\sdl\Keyboard.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\sdl\Keyboard.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\keyboard\wrap_Keyboard.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\love\love.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\love\love.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_module</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_module</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_module</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_module</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_module</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_module</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\math\BezierCurve.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\math\CompressedData.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\math\Compressor.cpp" />
@@ -486,12 +640,33 @@
     <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_Math.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\mouse\Cursor.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Cursor.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Mouse.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Cursor.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Mouse.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\mouse\wrap_Cursor.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\mouse\wrap_Mouse.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\Body.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Body.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Body.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\ChainShape.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\CircleShape.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Contact.cpp" />
@@ -500,7 +675,14 @@
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Fixture.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\FrictionJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\GearJoint.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Joint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Joint.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\MotorJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\MouseJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Physics.cpp" />
@@ -509,7 +691,14 @@
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PulleyJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\RevoluteJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\RopeJoint.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Shape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Shape.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\WeldJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\WheelJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\World.cpp" />
@@ -543,7 +732,14 @@
     <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\GmeDecoder.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\ModPlugDecoder.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Mpg123Decoder.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Sound.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Sound.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\VorbisDecoder.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\WaveDecoder.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\sound\Sound.cpp" />
@@ -551,29 +747,85 @@
     <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_Decoder.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_Sound.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\system\sdl\System.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\system\sdl\System.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\system\System.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\system\wrap_System.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\Channel.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\LuaThread.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\Thread.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\threads.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\Thread.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\threads.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\thread\ThreadModule.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\threads.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_Channel.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_LuaThread.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_ThreadModule.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\timer\sdl\Timer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\sdl\Timer.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\timer\Timer.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\timer\wrap_Timer.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\touch\sdl\Touch.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\touch\sdl\Touch.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\touch\wrap_Touch.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\Video.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\VideoStream.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\Video.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\VideoStream.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\video\VideoStream.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\video\wrap_Video.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\video\wrap_VideoStream.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\modules\window\sdl\Window.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\window\sdl\Window.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)_modules</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)_modules</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\window\Window.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\window\wrap_Window.cpp" />
     <ClCompile Include="SDL_winrt_main_NonXAML.cpp">
