@@ -130,7 +130,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -147,7 +147,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -164,7 +164,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -181,7 +181,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -198,7 +198,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -215,7 +215,7 @@
     <ClCompile>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -236,9 +236,26 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="C:\Users\mahrn\Desktop\test.zip">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
+    <None Include="..\love-uwp\love\src\common\ios.mm" />
+    <None Include="..\love-uwp\love\src\common\macosx.mm" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ftp.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\http.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ltn12.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\pre.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\smtp.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tp.lua" />
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\url.lua" />
+    <None Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.lua" />
+    <None Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.lua" />
+    <None Include="..\love-uwp\love\src\modules\image\wrap_ImageData.lua" />
+    <None Include="..\love-uwp\love\src\modules\math\wrap_Math.lua" />
+    <None Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.lua" />
+    <None Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.lua" />
+    <None Include="..\love-uwp\love\src\scripts\auto.lua" />
+    <None Include="..\love-uwp\love\src\scripts\boot.lua" />
+    <None Include="..\love-uwp\love\src\scripts\nogame.lua" />
     <None Include="LöveFTW_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -272,7 +289,293 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\android.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\b64.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\delay.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Exception.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Matrix.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Memoizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Module.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Object.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Reference.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\runtime.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\types.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\utf8.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Variant.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\Vector.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\common\wrap_Data.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Collision.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Distance.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Draw.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Math.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Settings.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Timer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Body.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Island.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2World.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MotorJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Rope\b2Rope.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\enet.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\callbacks.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\compress.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\host.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\list.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\packet.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\peer.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\protocol.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\win32.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\glad\glad.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\lodepng\lodepng.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\auxiliar.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\buffer.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\except.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\inet.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\io.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\luasocket.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\options.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\select.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tcp.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\timeout.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\udp.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\unix.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\usocket.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\wsocket.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\luasocket.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\lz4\lz4.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\lz4\lz4hc.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\noise1234\noise1234.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\noise1234\simplexnoise1234.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_convert.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_internal.c" />
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_memory.c" />
+    <ClCompile Include="..\love-uwp\love\src\love.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\Audio.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Audio.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Source.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Audio.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Pool.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Source.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\Source.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\wrap_Audio.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\wrap_Source.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\event\Event.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\event\sdl\Event.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\event\wrap_Event.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\DroppedFile.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\File.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\FileData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\Filesystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\File.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\Filesystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_DroppedFile.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_File.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_FileData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_Filesystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\BMFontRasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\TrueTypeRasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\GlyphData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\ImageRasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\Rasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\TrueTypeRasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_GlyphData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Rasterizer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Graphics.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Canvas.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\GLBuffer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Graphics.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Image.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Mesh.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\OpenGL.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\ParticleSystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Polyline.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Shader.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\SpriteBatch.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Text.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Video.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Canvas.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Font.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Image.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Mesh.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_ParticleSystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Shader.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_SpriteBatch.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Text.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\ParticleSystem.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Quad.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Texture.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Volatile.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\wrap_Quad.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\wrap_Texture.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\CompressedImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\ImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ASTCHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\CompressedImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ddsHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\FormatHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\Image.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\KTXHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PKMHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PNGHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PVRHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\STBHandler.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_CompressedImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_Image.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_ImageData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\Joystick.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\Joystick.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\JoystickModule.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\wrap_Joystick.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\wrap_JoystickModule.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\Keyboard.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\sdl\Keyboard.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\wrap_Keyboard.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\love\love.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\BezierCurve.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\CompressedData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\Compressor.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\MathModule.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\RandomGenerator.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_BezierCurve.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_CompressedData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_Math.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\Cursor.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Cursor.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Mouse.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\wrap_Cursor.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\wrap_Mouse.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\Body.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Body.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\ChainShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\CircleShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Contact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\DistanceJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\EdgeShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Fixture.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\FrictionJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\GearJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Joint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\MotorJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\MouseJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Physics.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PolygonShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PrismaticJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PulleyJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\RevoluteJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\RopeJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Shape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\WeldJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\WheelJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\World.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Body.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_ChainShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_CircleShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Contact.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_DistanceJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_EdgeShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Fixture.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_FrictionJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_GearJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Joint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MotorJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MouseJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Physics.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PolygonShape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PrismaticJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PulleyJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RevoluteJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RopeJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Shape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WeldJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WheelJoint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_World.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\Joint.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\Shape.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\CoreAudioDecoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Decoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\FLACDecoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\GmeDecoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\ModPlugDecoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Mpg123Decoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Sound.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\VorbisDecoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\WaveDecoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\Sound.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\SoundData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_Decoder.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_Sound.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\system\sdl\System.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\system\System.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\system\wrap_System.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\Channel.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\LuaThread.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\Thread.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\threads.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\ThreadModule.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\threads.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_Channel.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_LuaThread.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_ThreadModule.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\sdl\Timer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\Timer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\wrap_Timer.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\touch\sdl\Touch.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\touch\wrap_Touch.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\Video.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\VideoStream.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\video\VideoStream.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\video\wrap_Video.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\video\wrap_VideoStream.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\window\sdl\Window.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\window\Window.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\window\wrap_Window.cpp" />
     <ClCompile Include="SDL_winrt_main_NonXAML.cpp">
       <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsWinRT>
       <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsWinRT>
@@ -281,6 +584,337 @@
       <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsWinRT>
       <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsWinRT>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\love-uwp\love\src\common\android.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\b64.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\config.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Data.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\delay.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\EnumMap.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Exception.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\int.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\ios.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\macosx.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\math.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Matrix.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Memoizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Module.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Object.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Reference.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\runtime.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Stream.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\StringMap.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\types.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\utf8.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Variant.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\Vector.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\version.h" />
+    <ClInclude Include="..\love-uwp\love\src\common\wrap_Data.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Box2D.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2BroadPhase.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Collision.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Distance.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2DynamicTree.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2BlockAllocator.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Draw.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2GrowableStack.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Math.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Settings.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2StackAllocator.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Timer.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Body.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Fixture.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Island.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2World.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MotorJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Rope\b2Rope.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsinfo.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\callbacks.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\enet.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\list.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\protocol.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\time.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\types.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\unix.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\utility.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\win32.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\lua-enet.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\glad\glad.hpp" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\glad\gladfuncs.hpp" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\lodepng\lodepng.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\auxiliar.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\buffer.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\except.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ftp.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\http.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\inet.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\io.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ltn12.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\luasocket.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\options.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\select.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\smtp.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tcp.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\timeout.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tp.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\udp.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\unix.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\url.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\usocket.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\wsocket.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\luasocket.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luautf8\lprefix.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\lz4\lz4.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\lz4\lz4hc.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\noise1234\noise1234.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\noise1234\simplexnoise1234.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\stb\stb_image.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8\checked.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8\core.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8\unchecked.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff_config.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff_convert.h" />
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff_internal.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\Audio.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\null\Audio.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\null\Source.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\openal\Audio.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\openal\Pool.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\openal\Source.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\Source.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\wrap_Audio.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\wrap_Source.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\event\Event.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\event\sdl\Event.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\event\wrap_Event.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\DroppedFile.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\File.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\FileData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\Filesystem.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\physfs\File.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\physfs\Filesystem.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_DroppedFile.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_File.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_FileData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_Filesystem.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\BMFontRasterizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\Font.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\freetype\Font.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\freetype\TrueTypeRasterizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\GlyphData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\ImageRasterizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\Rasterizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\TrueTypeRasterizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\Vera.ttf.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\wrap_Font.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\wrap_GlyphData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\font\wrap_Rasterizer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Color.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Drawable.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Graphics.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Canvas.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Font.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\GLBuffer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Graphics.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Image.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Mesh.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\OpenGL.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\ParticleSystem.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Polyline.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Shader.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\SpriteBatch.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Text.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Video.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Canvas.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Font.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Image.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Mesh.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_ParticleSystem.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Shader.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_SpriteBatch.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Text.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\ParticleSystem.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Quad.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Texture.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Volatile.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\wrap_Quad.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\wrap_Texture.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\CompressedImageData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\Image.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\ImageData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\ASTCHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\CompressedFormatHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\CompressedImageData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\ddsHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\FormatHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\Image.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\ImageData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\KTXHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\PKMHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\PNGHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\PVRHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\STBHandler.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\wrap_CompressedImageData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\wrap_Image.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\image\wrap_ImageData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\Joystick.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\JoystickModule.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\sdl\Joystick.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\sdl\JoystickModule.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\wrap_Joystick.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\wrap_JoystickModule.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\keyboard\Keyboard.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\keyboard\sdl\Keyboard.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\keyboard\wrap_Keyboard.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\love\love.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\BezierCurve.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\CompressedData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\Compressor.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\MathModule.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\RandomGenerator.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_BezierCurve.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_CompressedData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_Math.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\Cursor.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\Mouse.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\sdl\Cursor.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\sdl\Mouse.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\wrap_Cursor.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\wrap_Mouse.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\Body.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Body.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\ChainShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\CircleShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Contact.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\DistanceJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\EdgeShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Fixture.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\FrictionJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\GearJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Joint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\MotorJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\MouseJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Physics.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\PolygonShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\PrismaticJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\PulleyJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\RevoluteJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\RopeJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Shape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\WeldJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\WheelJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\World.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Body.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_ChainShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_CircleShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Contact.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_DistanceJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_EdgeShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Fixture.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_FrictionJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_GearJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Joint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MotorJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MouseJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Physics.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PolygonShape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PrismaticJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PulleyJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RevoluteJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RopeJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Shape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WeldJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WheelJoint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_World.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\Joint.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\Shape.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\Decoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\CoreAudioDecoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\Decoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\FLACDecoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\GmeDecoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\ModPlugDecoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\Mpg123Decoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\Sound.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\VorbisDecoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\WaveDecoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\Sound.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\SoundData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\wrap_Decoder.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\wrap_Sound.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\system\sdl\System.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\system\System.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\system\wrap_System.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\Channel.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\LuaThread.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\sdl\Thread.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\sdl\threads.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\Thread.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\ThreadModule.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\threads.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\wrap_Channel.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\wrap_LuaThread.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\wrap_ThreadModule.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\timer\sdl\Timer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\timer\Timer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\timer\wrap_Timer.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\touch\sdl\Touch.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\touch\Touch.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\touch\wrap_Touch.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\video\theora\Video.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\video\theora\VideoStream.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\video\Video.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\video\VideoStream.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\video\wrap_Video.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\video\wrap_VideoStream.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\window\sdl\Window.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\window\Window.h" />
+    <ClInclude Include="..\love-uwp\love\src\modules\window\wrap_Window.h" />
+    <ClInclude Include="..\love-uwp\love\src\scripts\boot.lua.h" />
+    <ClInclude Include="..\love-uwp\love\src\scripts\nogame.lua.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

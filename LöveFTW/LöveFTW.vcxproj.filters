@@ -23,6 +23,210 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
+    <Filter Include="love">
+      <UniqueIdentifier>{8f836f52-32f9-4a23-8d72-32ca9d05c7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\scripts">
+      <UniqueIdentifier>{28f9fb12-df48-4f72-a974-54061bcc6642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\common">
+      <UniqueIdentifier>{9495d28b-39ad-47d4-8630-c67b5cb53d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries">
+      <UniqueIdentifier>{6f537a59-19a9-4d63-a2d4-8ba20de32bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D">
+      <UniqueIdentifier>{4b82422e-1a66-4434-89f6-bbb4e15797d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Collision">
+      <UniqueIdentifier>{b63170b6-fdbf-4e30-831a-aa28aa2c3a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Collision\Shapes">
+      <UniqueIdentifier>{2039142c-e2ca-4d44-bc3b-9138fa886bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Common">
+      <UniqueIdentifier>{695df3c1-cc1f-4480-8e80-7dd81e0af036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Dynamics">
+      <UniqueIdentifier>{38804ed4-0caf-4f0d-b79e-6208b8ca0306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{394d24e3-431c-41b8-b25a-5e3345d7cf39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{63ac5951-4d3c-4681-b6fd-8f6ed9ff165c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Rope">
+      <UniqueIdentifier>{7120bfcb-825a-4f99-b020-a67e50a3a0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Lamp Oil">
+      <UniqueIdentifier>{77fb09bc-460c-447f-b2b7-dd06123962bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Box2D\Bombs">
+      <UniqueIdentifier>{9754009e-7fb8-44ac-9262-688b0ab32ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\ddparse">
+      <UniqueIdentifier>{fe48fbc7-b9c9-495d-9f03-41dbb6769803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\enet">
+      <UniqueIdentifier>{bfb90067-0e59-46d1-955b-2690998f966a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\enet\libenet">
+      <UniqueIdentifier>{33eca9de-4918-405e-9b5f-f70d185037fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\enet\libenet\include">
+      <UniqueIdentifier>{70a40e6f-7ce4-47bd-91ed-cac688a77233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\enet\libenet\include\enet">
+      <UniqueIdentifier>{98a63c60-6a36-4a7f-aeba-4497ee0c3251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\lodepng">
+      <UniqueIdentifier>{b0a880d1-d6e2-4ca4-8bfd-047a3e902ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\luasocket">
+      <UniqueIdentifier>{5680194a-46bc-4eaa-a6a8-84997af6206b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\luasocket\libluasocket">
+      <UniqueIdentifier>{25fdfd5c-c901-491b-b0ca-da8a58085bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\luautf8">
+      <UniqueIdentifier>{555964c8-0b4f-4b39-a589-db42bdb8960b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\lz4">
+      <UniqueIdentifier>{ea90190c-2b3c-4234-aa6e-0b0246dbbf26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\noise1234">
+      <UniqueIdentifier>{983f6945-2cb3-4a74-9db8-1cc369ebdacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\stb">
+      <UniqueIdentifier>{09ca0048-8c90-42cc-996a-63effdce3a2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\utf8">
+      <UniqueIdentifier>{e4d761ea-7548-4dc2-88df-cbfd9ba003c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\utf8\utf8">
+      <UniqueIdentifier>{336a8c76-67b1-46f9-98cf-960e86eacc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\Wuff">
+      <UniqueIdentifier>{43a8549f-6279-4ad5-bb97-ca54b31fe303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\libraries\glad">
+      <UniqueIdentifier>{5e80b173-b543-4b60-9def-e7c4f2709a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules">
+      <UniqueIdentifier>{d0eafb60-f51d-4611-9817-e2ab59952b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\audio">
+      <UniqueIdentifier>{380a3da6-e7f8-4b25-83f0-e608abb1c38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\audio\openal">
+      <UniqueIdentifier>{adacb962-3454-4eef-851e-5e6006b44438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\audio\null">
+      <UniqueIdentifier>{84261143-6723-4469-81b8-3d598bc5cccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\event">
+      <UniqueIdentifier>{c7d29cf6-842e-46d8-95c1-3d635419f84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\event\sdl">
+      <UniqueIdentifier>{468e71bb-7386-4bd5-95aa-37a5a794077f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\filesystem">
+      <UniqueIdentifier>{abf09bec-27da-4e2f-9232-6b34f02fe708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\filesystem\physfs">
+      <UniqueIdentifier>{4609c4e1-ebcb-4a35-99e9-2a0e54b00538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\font">
+      <UniqueIdentifier>{4515bb85-b93e-44fa-b7ab-959bfc0cd9c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\font\freetype">
+      <UniqueIdentifier>{8373477d-ef1a-45b2-af1b-614a22ccae6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\graphics">
+      <UniqueIdentifier>{9ddc6461-1e37-4e82-8fb1-57dde8e7b534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\graphics\opengl">
+      <UniqueIdentifier>{db9cf9c2-4fe4-4851-a9f1-8d0106bf9ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\image">
+      <UniqueIdentifier>{62a364d6-c8c7-4bca-8af0-f5b8cdc6861a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\image\magpie">
+      <UniqueIdentifier>{f0ca2e3f-e35e-479a-a73e-772ee65d63d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\joystick">
+      <UniqueIdentifier>{1b47b8d0-12eb-49fb-8252-d1881d6bb5cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\joystick\sdl">
+      <UniqueIdentifier>{45ec7011-05f1-4f8a-96b8-f61f467cd9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\keyboard">
+      <UniqueIdentifier>{9d8329ea-0564-4e46-a3b9-714ee7a56287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\keyboard\sdl">
+      <UniqueIdentifier>{8cf1ec24-7b67-40a1-a9f9-7918d1a6cf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\love">
+      <UniqueIdentifier>{aaff175c-f95d-4bc0-8175-e55e4e95415d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\math">
+      <UniqueIdentifier>{9b260143-7739-46f2-a7bb-32a0f49b514a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\mouse">
+      <UniqueIdentifier>{db1c1504-186e-40be-bc78-362418e840c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\mouse\sdl">
+      <UniqueIdentifier>{fa95e59f-6cd0-4dd1-b5e2-29854892c686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\physics">
+      <UniqueIdentifier>{23955793-8f06-40d1-b316-a00c1a60c709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\physics\box2d">
+      <UniqueIdentifier>{50eb01c0-0ea3-4611-a087-4df1d09503c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\sound">
+      <UniqueIdentifier>{0562d08d-579a-484b-aa5a-094080f3c455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\sound\lullaby">
+      <UniqueIdentifier>{4d18108a-0a28-48cb-86a0-5c57028d582a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\system">
+      <UniqueIdentifier>{6a720831-4a4c-4c18-99aa-51420e983f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\system\sdl">
+      <UniqueIdentifier>{26132983-5c0f-4cd6-84c6-614983992c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\thread">
+      <UniqueIdentifier>{d6c5a735-61dd-470b-af49-7e3002639083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\thread\sdl">
+      <UniqueIdentifier>{279387b1-ec3d-415d-8d80-15e7e2c99858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\timer">
+      <UniqueIdentifier>{7744d41e-048e-4124-bde2-0f491d262024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\timer\sdl">
+      <UniqueIdentifier>{8d6b5261-07d5-4df3-8091-630ff5cea3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\touch">
+      <UniqueIdentifier>{900e4c2d-a8b7-4dec-8083-91953b3ee664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\touch\sdl">
+      <UniqueIdentifier>{db66de45-e317-4136-a99a-ab7c7f0b6d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\video">
+      <UniqueIdentifier>{1112bd5e-5c48-481c-8946-b94f50b2b7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\video\theora">
+      <UniqueIdentifier>{7592ff99-14d7-473a-8673-279bc634ab51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\window">
+      <UniqueIdentifier>{152cddc9-778c-4159-b054-6c30c8e3cc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="love\modules\window\sdl">
+      <UniqueIdentifier>{46cdfa15-d722-405a-8d01-6602c2e1b3c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\StoreLogo.png">
@@ -35,10 +239,1918 @@
   <ItemGroup>
     <None Include="LöveFTW_TemporaryKey.pfx" />
     <None Include="packages.config" />
-    <None Include="C:\Users\mahrn\Desktop\test.zip" />
+    <None Include="..\love-uwp\love\src\scripts\boot.lua">
+      <Filter>love\scripts</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\scripts\nogame.lua">
+      <Filter>love\scripts</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\scripts\auto.lua">
+      <Filter>love\scripts</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\common\ios.mm">
+      <Filter>love\common</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\common\macosx.mm">
+      <Filter>love\common</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ltn12.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\pre.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\smtp.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tp.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\url.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ftp.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\http.lua">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.lua">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.lua">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\modules\image\wrap_ImageData.lua">
+      <Filter>love\modules\image</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\modules\math\wrap_Math.lua">
+      <Filter>love\modules\math</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.lua">
+      <Filter>love\modules\math</Filter>
+    </None>
+    <None Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.lua">
+      <Filter>love\modules\sound</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\love.cpp">
+      <Filter>love</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\delay.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Exception.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Matrix.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Memoizer.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Module.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Object.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Reference.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\runtime.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\types.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\utf8.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Variant.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\Vector.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\wrap_Data.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\android.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\common\b64.cpp">
+      <Filter>love\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Collision.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Distance.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Settings.cpp">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Timer.cpp">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Draw.cpp">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Math.cpp">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Island.cpp">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2World.cpp">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Body.cpp">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Rope\b2Rope.cpp">
+      <Filter>love\libraries\Box2D\Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.cpp">
+      <Filter>love\libraries\ddparse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\enet.cpp">
+      <Filter>love\libraries\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\peer.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\protocol.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\win32.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\callbacks.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\compress.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\host.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\list.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\packet.c">
+      <Filter>love\libraries\enet\libenet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\glad\glad.cpp">
+      <Filter>love\libraries\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\lodepng\lodepng.cpp">
+      <Filter>love\libraries\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\luasocket.cpp">
+      <Filter>love\libraries\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\inet.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\io.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\luasocket.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\options.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\select.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tcp.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\timeout.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\udp.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\unix.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\usocket.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\wsocket.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\auxiliar.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\buffer.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\except.c">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.c">
+      <Filter>love\libraries\luautf8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\lz4\lz4hc.c">
+      <Filter>love\libraries\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\lz4\lz4.c">
+      <Filter>love\libraries\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\noise1234\simplexnoise1234.cpp">
+      <Filter>love\libraries\noise1234</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\noise1234\noise1234.cpp">
+      <Filter>love\libraries\noise1234</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_convert.c">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_internal.c">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff_memory.c">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\libraries\Wuff\wuff.c">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\Source.cpp">
+      <Filter>love\modules\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\wrap_Audio.cpp">
+      <Filter>love\modules\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\wrap_Source.cpp">
+      <Filter>love\modules\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\Audio.cpp">
+      <Filter>love\modules\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Source.cpp">
+      <Filter>love\modules\audio\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Audio.cpp">
+      <Filter>love\modules\audio\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\openal\Pool.cpp">
+      <Filter>love\modules\audio\openal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Source.cpp">
+      <Filter>love\modules\audio\null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\audio\null\Audio.cpp">
+      <Filter>love\modules\audio\null</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\event\wrap_Event.cpp">
+      <Filter>love\modules\event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\event\Event.cpp">
+      <Filter>love\modules\event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\event\sdl\Event.cpp">
+      <Filter>love\modules\event\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_DroppedFile.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_File.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_FileData.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\wrap_Filesystem.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\DroppedFile.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\File.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\FileData.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\Filesystem.cpp">
+      <Filter>love\modules\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\Filesystem.cpp">
+      <Filter>love\modules\filesystem\physfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\filesystem\physfs\File.cpp">
+      <Filter>love\modules\filesystem\physfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\Rasterizer.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\TrueTypeRasterizer.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Font.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_GlyphData.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\wrap_Rasterizer.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\BMFontRasterizer.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\Font.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\GlyphData.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\ImageRasterizer.cpp">
+      <Filter>love\modules\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\TrueTypeRasterizer.cpp">
+      <Filter>love\modules\font\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\font\freetype\Font.cpp">
+      <Filter>love\modules\font\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Texture.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Volatile.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\wrap_Quad.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\wrap_Texture.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Graphics.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\ParticleSystem.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\Quad.cpp">
+      <Filter>love\modules\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Image.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Mesh.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_ParticleSystem.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Shader.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_SpriteBatch.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Text.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Canvas.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Font.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\GLBuffer.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Graphics.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Image.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Mesh.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\OpenGL.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\ParticleSystem.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Polyline.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Shader.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\SpriteBatch.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Text.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\Video.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Canvas.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Font.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.cpp">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_CompressedImageData.cpp">
+      <Filter>love\modules\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_Image.cpp">
+      <Filter>love\modules\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\wrap_ImageData.cpp">
+      <Filter>love\modules\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\CompressedImageData.cpp">
+      <Filter>love\modules\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\ImageData.cpp">
+      <Filter>love\modules\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\FormatHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\Image.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ImageData.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\KTXHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PKMHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PNGHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\PVRHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\STBHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ASTCHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\CompressedImageData.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\image\magpie\ddsHandler.cpp">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\wrap_Joystick.cpp">
+      <Filter>love\modules\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\wrap_JoystickModule.cpp">
+      <Filter>love\modules\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\Joystick.cpp">
+      <Filter>love\modules\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\JoystickModule.cpp">
+      <Filter>love\modules\joystick\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\joystick\sdl\Joystick.cpp">
+      <Filter>love\modules\joystick\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\Keyboard.cpp">
+      <Filter>love\modules\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\wrap_Keyboard.cpp">
+      <Filter>love\modules\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\keyboard\sdl\Keyboard.cpp">
+      <Filter>love\modules\keyboard\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\love\love.cpp">
+      <Filter>love\modules\love</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\Compressor.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\MathModule.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\RandomGenerator.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_BezierCurve.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_CompressedData.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_Math.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\BezierCurve.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\math\CompressedData.cpp">
+      <Filter>love\modules\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\wrap_Cursor.cpp">
+      <Filter>love\modules\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\wrap_Mouse.cpp">
+      <Filter>love\modules\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\Cursor.cpp">
+      <Filter>love\modules\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Mouse.cpp">
+      <Filter>love\modules\mouse\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\mouse\sdl\Cursor.cpp">
+      <Filter>love\modules\mouse\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\Joint.cpp">
+      <Filter>love\modules\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\Shape.cpp">
+      <Filter>love\modules\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\Body.cpp">
+      <Filter>love\modules\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PrismaticJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PulleyJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RevoluteJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RopeJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Shape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WeldJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WheelJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_World.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Body.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\ChainShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\CircleShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Contact.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\DistanceJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\EdgeShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Fixture.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\FrictionJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\GearJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Joint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\MotorJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\MouseJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Physics.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PolygonShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PrismaticJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\PulleyJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\RevoluteJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\RopeJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\Shape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\WeldJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\WheelJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\World.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Body.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_ChainShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_CircleShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Contact.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_DistanceJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_EdgeShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Fixture.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_FrictionJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_GearJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Joint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MotorJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MouseJoint.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Physics.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PolygonShape.cpp">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\SoundData.cpp">
+      <Filter>love\modules\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_Decoder.cpp">
+      <Filter>love\modules\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_Sound.cpp">
+      <Filter>love\modules\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.cpp">
+      <Filter>love\modules\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\Sound.cpp">
+      <Filter>love\modules\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\FLACDecoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\GmeDecoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\ModPlugDecoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Mpg123Decoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Sound.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\WaveDecoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\VorbisDecoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\CoreAudioDecoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\sound\lullaby\Decoder.cpp">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\system\wrap_System.cpp">
+      <Filter>love\modules\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\system\System.cpp">
+      <Filter>love\modules\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\system\sdl\System.cpp">
+      <Filter>love\modules\system\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\LuaThread.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\ThreadModule.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\threads.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_Channel.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_LuaThread.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\wrap_ThreadModule.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\Channel.cpp">
+      <Filter>love\modules\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\threads.cpp">
+      <Filter>love\modules\thread\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\thread\sdl\Thread.cpp">
+      <Filter>love\modules\thread\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\wrap_Timer.cpp">
+      <Filter>love\modules\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\Timer.cpp">
+      <Filter>love\modules\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\timer\sdl\Timer.cpp">
+      <Filter>love\modules\timer\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\touch\wrap_Touch.cpp">
+      <Filter>love\modules\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\touch\sdl\Touch.cpp">
+      <Filter>love\modules\touch\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\video\VideoStream.cpp">
+      <Filter>love\modules\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\video\wrap_Video.cpp">
+      <Filter>love\modules\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\video\wrap_VideoStream.cpp">
+      <Filter>love\modules\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\VideoStream.cpp">
+      <Filter>love\modules\video\theora</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\video\theora\Video.cpp">
+      <Filter>love\modules\video\theora</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\window\wrap_Window.cpp">
+      <Filter>love\modules\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\window\Window.cpp">
+      <Filter>love\modules\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\love-uwp\love\src\modules\window\sdl\Window.cpp">
+      <Filter>love\modules\window\sdl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\love-uwp\love\src\scripts\boot.lua.h">
+      <Filter>love\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\scripts\nogame.lua.h">
+      <Filter>love\scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Data.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\delay.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\EnumMap.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Exception.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\int.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\ios.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\macosx.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\math.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Matrix.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Memoizer.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Module.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Object.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Reference.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\runtime.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Stream.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\StringMap.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\types.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\utf8.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Variant.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\Vector.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\version.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\wrap_Data.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\android.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\b64.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\common\config.h">
+      <Filter>love\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Box2D.h">
+      <Filter>love\libraries\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Collision.h">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2Distance.h">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2DynamicTree.h">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\b2BroadPhase.h">
+      <Filter>love\libraries\Box2D\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>love\libraries\Box2D\Collision\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Math.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Settings.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2StackAllocator.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Timer.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2BlockAllocator.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2Draw.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Common\b2GrowableStack.h">
+      <Filter>love\libraries\Box2D\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Island.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2World.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Body.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\b2Fixture.h">
+      <Filter>love\libraries\Box2D\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>love\libraries\Box2D\Dynamics\Contacts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>love\libraries\Box2D\Dynamics\Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Rope\b2Rope.h">
+      <Filter>love\libraries\Box2D\Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.h">
+      <Filter>love\libraries\ddparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsinfo.h">
+      <Filter>love\libraries\ddparse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\lua-enet.h">
+      <Filter>love\libraries\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\enet.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\list.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\protocol.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\time.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\types.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\unix.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\utility.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\win32.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\callbacks.h">
+      <Filter>love\libraries\enet\libenet\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\glad\glad.hpp">
+      <Filter>love\libraries\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\glad\gladfuncs.hpp">
+      <Filter>love\libraries\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\lodepng\lodepng.h">
+      <Filter>love\libraries\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\luasocket.h">
+      <Filter>love\libraries\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\inet.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\io.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ltn12.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\luasocket.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\options.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\select.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\smtp.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tcp.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\timeout.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tp.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\udp.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\unix.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\url.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\usocket.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\wsocket.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\auxiliar.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\buffer.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\except.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ftp.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\http.lua.h">
+      <Filter>love\libraries\luasocket\libluasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.h">
+      <Filter>love\libraries\luautf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\luautf8\lprefix.h">
+      <Filter>love\libraries\luautf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\lz4\lz4hc.h">
+      <Filter>love\libraries\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\lz4\lz4.h">
+      <Filter>love\libraries\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\noise1234\noise1234.h">
+      <Filter>love\libraries\noise1234</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\noise1234\simplexnoise1234.h">
+      <Filter>love\libraries\noise1234</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\stb\stb_image.h">
+      <Filter>love\libraries\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8.h">
+      <Filter>love\libraries\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8\core.h">
+      <Filter>love\libraries\utf8\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8\unchecked.h">
+      <Filter>love\libraries\utf8\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\utf8\utf8\checked.h">
+      <Filter>love\libraries\utf8\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff_config.h">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff_convert.h">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff_internal.h">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\libraries\Wuff\wuff.h">
+      <Filter>love\libraries\Wuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\Audio.h">
+      <Filter>love\modules\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\Source.h">
+      <Filter>love\modules\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\wrap_Audio.h">
+      <Filter>love\modules\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\wrap_Source.h">
+      <Filter>love\modules\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\openal\Source.h">
+      <Filter>love\modules\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\openal\Audio.h">
+      <Filter>love\modules\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\openal\Pool.h">
+      <Filter>love\modules\audio\openal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\null\Audio.h">
+      <Filter>love\modules\audio\null</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\audio\null\Source.h">
+      <Filter>love\modules\audio\null</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\event\wrap_Event.h">
+      <Filter>love\modules\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\event\Event.h">
+      <Filter>love\modules\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\event\sdl\Event.h">
+      <Filter>love\modules\event\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\Filesystem.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_DroppedFile.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_File.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_FileData.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\wrap_Filesystem.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\DroppedFile.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\File.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\FileData.h">
+      <Filter>love\modules\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\physfs\Filesystem.h">
+      <Filter>love\modules\filesystem\physfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\filesystem\physfs\File.h">
+      <Filter>love\modules\filesystem\physfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\Rasterizer.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\TrueTypeRasterizer.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\Vera.ttf.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\wrap_Font.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\wrap_GlyphData.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\wrap_Rasterizer.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\BMFontRasterizer.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\Font.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\GlyphData.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\ImageRasterizer.h">
+      <Filter>love\modules\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\freetype\TrueTypeRasterizer.h">
+      <Filter>love\modules\font\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\font\freetype\Font.h">
+      <Filter>love\modules\font\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Texture.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Volatile.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\wrap_Quad.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\wrap_Texture.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Color.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Drawable.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Graphics.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\ParticleSystem.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\Quad.h">
+      <Filter>love\modules\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Image.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Mesh.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_ParticleSystem.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Shader.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_SpriteBatch.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Text.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Video.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Canvas.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Font.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\GLBuffer.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Graphics.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Image.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Mesh.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\OpenGL.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\ParticleSystem.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Polyline.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Shader.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\SpriteBatch.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Text.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\Video.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Canvas.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Font.h">
+      <Filter>love\modules\graphics\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\ImageData.h">
+      <Filter>love\modules\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\wrap_CompressedImageData.h">
+      <Filter>love\modules\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\wrap_Image.h">
+      <Filter>love\modules\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\wrap_ImageData.h">
+      <Filter>love\modules\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\CompressedImageData.h">
+      <Filter>love\modules\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\Image.h">
+      <Filter>love\modules\image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\ddsHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\FormatHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\Image.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\ImageData.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\KTXHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\PKMHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\PNGHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\PVRHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\STBHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\ASTCHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\CompressedFormatHandler.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\image\magpie\CompressedImageData.h">
+      <Filter>love\modules\image\magpie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\wrap_Joystick.h">
+      <Filter>love\modules\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\wrap_JoystickModule.h">
+      <Filter>love\modules\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\Joystick.h">
+      <Filter>love\modules\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\JoystickModule.h">
+      <Filter>love\modules\joystick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\sdl\Joystick.h">
+      <Filter>love\modules\joystick\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\joystick\sdl\JoystickModule.h">
+      <Filter>love\modules\joystick\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\keyboard\Keyboard.h">
+      <Filter>love\modules\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\keyboard\wrap_Keyboard.h">
+      <Filter>love\modules\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\keyboard\sdl\Keyboard.h">
+      <Filter>love\modules\keyboard\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\love\love.h">
+      <Filter>love\modules\love</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\CompressedData.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\Compressor.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\MathModule.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\RandomGenerator.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_BezierCurve.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_CompressedData.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_Math.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\wrap_RandomGenerator.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\math\BezierCurve.h">
+      <Filter>love\modules\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\Cursor.h">
+      <Filter>love\modules\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\Mouse.h">
+      <Filter>love\modules\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\wrap_Cursor.h">
+      <Filter>love\modules\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\wrap_Mouse.h">
+      <Filter>love\modules\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\sdl\Cursor.h">
+      <Filter>love\modules\mouse\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\mouse\sdl\Mouse.h">
+      <Filter>love\modules\mouse\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\Body.h">
+      <Filter>love\modules\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\Joint.h">
+      <Filter>love\modules\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\Shape.h">
+      <Filter>love\modules\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PolygonShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PrismaticJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_PulleyJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RevoluteJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_RopeJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Shape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WeldJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_WheelJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_World.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Body.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\ChainShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\CircleShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Contact.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\DistanceJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\EdgeShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Fixture.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\FrictionJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\GearJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Joint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\MotorJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\MouseJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Physics.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\PolygonShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\PrismaticJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\PulleyJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\RevoluteJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\RopeJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\Shape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\WeldJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\WheelJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\World.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Body.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_ChainShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_CircleShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Contact.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_DistanceJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_EdgeShape.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Fixture.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_FrictionJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_GearJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Joint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MotorJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_MouseJoint.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\physics\box2d\wrap_Physics.h">
+      <Filter>love\modules\physics\box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\Sound.h">
+      <Filter>love\modules\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\SoundData.h">
+      <Filter>love\modules\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\wrap_Decoder.h">
+      <Filter>love\modules\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\wrap_Sound.h">
+      <Filter>love\modules\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\wrap_SoundData.h">
+      <Filter>love\modules\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\Decoder.h">
+      <Filter>love\modules\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\Decoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\FLACDecoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\GmeDecoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\ModPlugDecoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\Mpg123Decoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\Sound.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\WaveDecoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\VorbisDecoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\sound\lullaby\CoreAudioDecoder.h">
+      <Filter>love\modules\sound\lullaby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\system\System.h">
+      <Filter>love\modules\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\system\wrap_System.h">
+      <Filter>love\modules\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\system\sdl\System.h">
+      <Filter>love\modules\system\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\Channel.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\LuaThread.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\Thread.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\ThreadModule.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\threads.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\wrap_Channel.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\wrap_LuaThread.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\wrap_ThreadModule.h">
+      <Filter>love\modules\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\sdl\threads.h">
+      <Filter>love\modules\thread\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\thread\sdl\Thread.h">
+      <Filter>love\modules\thread\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\timer\Timer.h">
+      <Filter>love\modules\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\timer\wrap_Timer.h">
+      <Filter>love\modules\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\timer\sdl\Timer.h">
+      <Filter>love\modules\timer\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\touch\Touch.h">
+      <Filter>love\modules\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\touch\wrap_Touch.h">
+      <Filter>love\modules\touch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\touch\sdl\Touch.h">
+      <Filter>love\modules\touch\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\video\VideoStream.h">
+      <Filter>love\modules\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\video\wrap_Video.h">
+      <Filter>love\modules\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\video\wrap_VideoStream.h">
+      <Filter>love\modules\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\video\Video.h">
+      <Filter>love\modules\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\video\theora\Video.h">
+      <Filter>love\modules\video\theora</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\video\theora\VideoStream.h">
+      <Filter>love\modules\video\theora</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\window\Window.h">
+      <Filter>love\modules\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\window\wrap_Window.h">
+      <Filter>love\modules\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\love-uwp\love\src\modules\window\sdl\Window.h">
+      <Filter>love\modules\window\sdl</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
