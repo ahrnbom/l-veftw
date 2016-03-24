@@ -133,7 +133,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;$(ProjectDir)..\love-uwp\love\src\;$(ProjectDir)..\love-uwp\love\src\libraries;$(ProjectDir)..\love-uwp\love\src\modules;$(ProjectDir)..\libvorbis-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -150,7 +150,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;$(ProjectDir)..\love-uwp\love\src\;$(ProjectDir)..\love-uwp\love\src\libraries;$(ProjectDir)..\love-uwp\love\src\modules;$(ProjectDir)..\libvorbis-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -167,7 +167,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;$(ProjectDir)..\love-uwp\love\src\;$(ProjectDir)..\love-uwp\love\src\libraries;$(ProjectDir)..\love-uwp\love\src\modules;$(ProjectDir)..\libvorbis-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -184,7 +184,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;$(ProjectDir)..\love-uwp\love\src\;$(ProjectDir)..\love-uwp\love\src\libraries;$(ProjectDir)..\love-uwp\love\src\modules;$(ProjectDir)..\libvorbis-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -201,7 +201,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;$(ProjectDir)..\love-uwp\love\src\;$(ProjectDir)..\love-uwp\love\src\libraries;$(ProjectDir)..\love-uwp\love\src\modules;$(ProjectDir)..\libvorbis-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -218,7 +218,7 @@
       <AdditionalIncludeDirectories>$(ProjectDir);$(IntermediateOutputPath);$(ProjectDir)..\SDL-mirror\include;$(ProjectDir)..\lua-uwp\src;$(ProjectDir)..\physfs-uwp\PhysFS-uwp\src;$(ProjectDir)..\openal-soft-winphone\include;$(ProjectDir)..\libogg-uwp\include;$(ProjectDir)..\libtheora-uwp\include;$(ProjectDir)..\freetype-uwp\freetype\include;$(ProjectDir)..\zlib-uwp\zlib;$(ProjectDir)..\love-uwp\love\src\libraries\enet\libenet\include;$(ProjectDir)..\love-uwp\love\src\;$(ProjectDir)..\love-uwp\love\src\libraries;$(ProjectDir)..\love-uwp\love\src\modules;$(ProjectDir)..\libvorbis-uwp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <CompileAsWinRT>false</CompileAsWinRT>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
     </ClCompile>
