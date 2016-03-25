@@ -83,12 +83,6 @@
     <Filter Include="love\libraries\lodepng">
       <UniqueIdentifier>{b0a880d1-d6e2-4ca4-8bfd-047a3e902ee8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="love\libraries\luasocket">
-      <UniqueIdentifier>{5680194a-46bc-4eaa-a6a8-84997af6206b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="love\libraries\luasocket\libluasocket">
-      <UniqueIdentifier>{25fdfd5c-c901-491b-b0ca-da8a58085bee}</UniqueIdentifier>
-    </Filter>
     <Filter Include="love\libraries\luautf8">
       <UniqueIdentifier>{555964c8-0b4f-4b39-a589-db42bdb8960b}</UniqueIdentifier>
     </Filter>
@@ -253,33 +247,6 @@
     </None>
     <None Include="..\love-uwp\love\src\common\macosx.mm">
       <Filter>love\common</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ltn12.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\pre.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\smtp.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tp.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\url.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ftp.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </None>
-    <None Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\http.lua">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
     </None>
     <None Include="..\love-uwp\love\src\modules\graphics\opengl\wrap_Graphics.lua">
       <Filter>love\modules\graphics\opengl</Filter>
@@ -523,54 +490,6 @@
     </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\libraries\lodepng\lodepng.cpp">
       <Filter>love\libraries\lodepng</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\luasocket.cpp">
-      <Filter>love\libraries\luasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\inet.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\io.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\luasocket.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\options.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\select.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tcp.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\timeout.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\udp.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\unix.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\usocket.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\wsocket.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\auxiliar.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\buffer.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\except.c">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
     </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.c">
       <Filter>love\libraries\luautf8</Filter>
@@ -1431,84 +1350,6 @@
     </ClInclude>
     <ClInclude Include="..\love-uwp\love\src\libraries\lodepng\lodepng.h">
       <Filter>love\libraries\lodepng</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\luasocket.h">
-      <Filter>love\libraries\luasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\inet.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\io.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ltn12.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\luasocket.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\mime.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\options.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\select.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\smtp.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\socket.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tcp.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\timeout.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\tp.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\udp.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\unix.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\url.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\usocket.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\wsocket.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\auxiliar.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\buffer.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\except.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\ftp.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\luasocket\libluasocket\http.lua.h">
-      <Filter>love\libraries\luasocket\libluasocket</Filter>
     </ClInclude>
     <ClInclude Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.h">
       <Filter>love\libraries\luautf8</Filter>

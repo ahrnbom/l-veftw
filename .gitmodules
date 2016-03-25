@@ -28,3 +28,6 @@
 [submodule "love-uwp"]
 	path = love-uwp
 	url = https://github.com/ahrnbom/love-uwp.git
+[submodule "luasocket-uwp"]
+	path = luasocket-uwp
+	url = https://github.com/ahrnbom/luasocket-uwp.git
