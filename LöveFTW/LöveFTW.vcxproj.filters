@@ -209,6 +209,9 @@
     <Filter Include="love\modules\window\sdl">
       <UniqueIdentifier>{46cdfa15-d722-405a-8d01-6602c2e1b3c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="love\libraries\luasocket">
+      <UniqueIdentifier>{95c2b336-1954-4feb-bfdc-8e8edb621750}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\StoreLogo.png">
@@ -1042,6 +1045,9 @@
     </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\window\sdl\Window.cpp">
       <Filter>love\modules\window\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\luasocket-uwp\luasocket-uwp\luasocket.cpp">
+      <Filter>love\libraries\luasocket</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1923,6 +1929,9 @@
     </ClInclude>
     <ClInclude Include="..\love-uwp\love\src\modules\window\sdl\Window.h">
       <Filter>love\modules\window\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\luasocket-uwp\luasocket-uwp\luasocket.h">
+      <Filter>love\libraries\luasocket</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
