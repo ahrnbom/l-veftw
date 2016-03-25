@@ -28,6 +28,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib-uwp", "..\zlib-uwp\zli
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luasocket-uwp", "..\luasocket-uwp\winrt\luasocket-uwp\luasocket-uwp.vcxproj", "{AAF0EB76-9D7C-47AC-8661-2CA2D6B19F30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enet-uwp", "..\enet-uwp\winrt\enet-uwp\enet-uwp.vcxproj", "{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -176,6 +178,18 @@ Global
 		{AAF0EB76-9D7C-47AC-8661-2CA2D6B19F30}.Release|x64.Build.0 = Release|x64
 		{AAF0EB76-9D7C-47AC-8661-2CA2D6B19F30}.Release|x86.ActiveCfg = Release|Win32
 		{AAF0EB76-9D7C-47AC-8661-2CA2D6B19F30}.Release|x86.Build.0 = Release|Win32
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Debug|ARM.Build.0 = Debug|ARM
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Debug|x64.ActiveCfg = Debug|x64
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Debug|x64.Build.0 = Debug|x64
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Debug|x86.Build.0 = Debug|Win32
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Release|ARM.ActiveCfg = Release|ARM
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Release|ARM.Build.0 = Release|ARM
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Release|x64.ActiveCfg = Release|x64
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Release|x64.Build.0 = Release|x64
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Release|x86.ActiveCfg = Release|Win32
+		{D4E9BDC0-C801-4F6B-8C74-CA75A5B83C2D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

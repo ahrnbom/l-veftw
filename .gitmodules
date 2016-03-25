@@ -31,3 +31,6 @@
 [submodule "luasocket-uwp"]
 	path = luasocket-uwp
 	url = https://github.com/ahrnbom/luasocket-uwp.git
+[submodule "enet-uwp"]
+	path = enet-uwp
+	url = https://github.com/ahrnbom/enet-uwp.git

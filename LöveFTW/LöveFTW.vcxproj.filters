@@ -68,18 +68,6 @@
     <Filter Include="love\libraries\ddparse">
       <UniqueIdentifier>{fe48fbc7-b9c9-495d-9f03-41dbb6769803}</UniqueIdentifier>
     </Filter>
-    <Filter Include="love\libraries\enet">
-      <UniqueIdentifier>{bfb90067-0e59-46d1-955b-2690998f966a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="love\libraries\enet\libenet">
-      <UniqueIdentifier>{33eca9de-4918-405e-9b5f-f70d185037fb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="love\libraries\enet\libenet\include">
-      <UniqueIdentifier>{70a40e6f-7ce4-47bd-91ed-cac688a77233}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="love\libraries\enet\libenet\include\enet">
-      <UniqueIdentifier>{98a63c60-6a36-4a7f-aeba-4497ee0c3251}</UniqueIdentifier>
-    </Filter>
     <Filter Include="love\libraries\lodepng">
       <UniqueIdentifier>{b0a880d1-d6e2-4ca4-8bfd-047a3e902ee8}</UniqueIdentifier>
     </Filter>
@@ -457,33 +445,6 @@
     </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.cpp">
       <Filter>love\libraries\ddparse</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\enet.cpp">
-      <Filter>love\libraries\enet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\peer.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\protocol.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\win32.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\callbacks.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\compress.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\host.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\list.c">
-      <Filter>love\libraries\enet\libenet</Filter>
-    </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\packet.c">
-      <Filter>love\libraries\enet\libenet</Filter>
     </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\libraries\glad\glad.cpp">
       <Filter>love\libraries\glad</Filter>
@@ -1311,36 +1272,6 @@
     </ClInclude>
     <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsinfo.h">
       <Filter>love\libraries\ddparse</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\lua-enet.h">
-      <Filter>love\libraries\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\enet.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\list.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\protocol.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\time.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\types.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\unix.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\utility.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\win32.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
-    </ClInclude>
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\callbacks.h">
-      <Filter>love\libraries\enet\libenet\include\enet</Filter>
     </ClInclude>
     <ClInclude Include="..\love-uwp\love\src\libraries\glad\glad.hpp">
       <Filter>love\libraries\glad</Filter>

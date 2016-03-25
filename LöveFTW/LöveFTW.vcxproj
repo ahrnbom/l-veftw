@@ -251,6 +251,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\enet-uwp\winrt\enet-uwp\enet-uwp.vcxproj">
+      <Project>{d4e9bdc0-c801-4f6b-8c74-ca75a5b83c2d}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\freetype-uwp\freetype\builds\winrt\freetype-uwp\freetype-uwp.vcxproj">
       <Project>{262b016e-e2df-40f7-bc58-3beb000d6229}</Project>
     </ProjectReference>
@@ -265,6 +268,9 @@
     </ProjectReference>
     <ProjectReference Include="..\lua-uwp\lua-uwp\lua-uwp.vcxproj">
       <Project>{93b8da2c-888e-40c4-8e9e-5f31b53949e0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\luasocket-uwp\winrt\luasocket-uwp\luasocket-uwp.vcxproj">
+      <Project>{aaf0eb76-9d7c-47ac-8661-2ca2d6b19f30}</Project>
     </ProjectReference>
     <ProjectReference Include="..\openal-soft-winphone\winrt.vs2015\OpenAL\OpenAL.vcxproj">
       <Project>{a4ec741a-2f08-4dab-a9b1-472540cbce2e}</Project>
@@ -342,15 +348,6 @@
     <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Dynamics\Joints\b2WheelJoint.cpp" />
     <ClCompile Include="..\love-uwp\love\src\libraries\Box2D\Rope\b2Rope.cpp" />
     <ClCompile Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\enet.cpp" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\callbacks.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\compress.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\host.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\list.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\packet.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\peer.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\protocol.c" />
-    <ClCompile Include="..\love-uwp\love\src\libraries\enet\libenet\win32.c" />
     <ClCompile Include="..\love-uwp\love\src\libraries\glad\glad.cpp" />
     <ClCompile Include="..\love-uwp\love\src\libraries\lodepng\lodepng.cpp" />
     <ClCompile Include="..\love-uwp\love\src\libraries\luautf8\lutf8lib.c" />
@@ -887,16 +884,6 @@
     <ClInclude Include="..\love-uwp\love\src\libraries\Box2D\Rope\b2Rope.h" />
     <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsinfo.h" />
     <ClInclude Include="..\love-uwp\love\src\libraries\ddsparse\ddsparse.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\callbacks.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\enet.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\list.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\protocol.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\time.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\types.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\unix.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\utility.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\libenet\include\enet\win32.h" />
-    <ClInclude Include="..\love-uwp\love\src\libraries\enet\lua-enet.h" />
     <ClInclude Include="..\love-uwp\love\src\libraries\glad\glad.hpp" />
     <ClInclude Include="..\love-uwp\love\src\libraries\glad\gladfuncs.hpp" />
     <ClInclude Include="..\love-uwp\love\src\libraries\lodepng\lodepng.h" />
