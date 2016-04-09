@@ -727,7 +727,14 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IntDir)%(Filename)_modules</ObjectFileName>
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IntDir)%(Filename)_modules</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="..\love-uwp\love\src\modules\system\System.cpp" />
+    <ClCompile Include="..\love-uwp\love\src\modules\system\System.cpp">
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</CompileAsWinRT>
+      <CompileAsWinRT Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</CompileAsWinRT>
+    </ClCompile>
     <ClCompile Include="..\love-uwp\love\src\modules\system\wrap_System.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\Channel.cpp" />
     <ClCompile Include="..\love-uwp\love\src\modules\thread\LuaThread.cpp" />
